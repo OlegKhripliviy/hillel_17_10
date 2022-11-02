@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 flake8 = "==5.0.4"
-jupyter = "*"
 black = "==22.10.0"
 isort = "==5.10.1"
+pympler = "1.0.1"
 
 [dev-packages]
 
