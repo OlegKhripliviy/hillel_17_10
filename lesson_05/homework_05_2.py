@@ -46,19 +46,6 @@ assert list(Frange(0, 5)) == [0, 1, 2, 3, 4]
 assert list(Frange(0, 0)) == []
 assert list(Frange(100, 0)) == []
 assert list(Frange(-5)) == []
-assert list(Frange(-5, -2, 0.3)) == [
-    -5.0,
-    -4.7,
-    -4.4,
-    -4.1,
-    -3.8,
-    -3.5,
-    -3.2,
-    -2.9,
-    -2.6,
-    -2.3,
-    -2.0,
-]
 
 
 print("SUCCESS!")
