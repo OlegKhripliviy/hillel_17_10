@@ -14,6 +14,9 @@ class WorkWithFile:
         self.writer_in_file(self.filter_lines())
 
     def __str__(self):
+        return self._return_size_len()
+
+    def _return_size_len(self):
         answ = ""
         for j, k, z in zip(
             self.size_file(), self.len_file(), self.files_in_directory()
