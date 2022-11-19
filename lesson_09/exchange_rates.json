@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "from_": "uah",
+            "to_": "usd",
+            "value": 0.027
+        },
+        {
+            "from_": "usd",
+            "to_": "uah",
+            "value": 36.95
+        },
+        {
+            "from_": "eur",
+            "to_": "usd",
+            "value": 1.03
+        },
+        {
+            "from_": "usd",
+            "to_": "eur",
+            "value": 0.97
+        }
+    ]
+}
